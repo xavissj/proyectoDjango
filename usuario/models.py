@@ -1,6 +1,4 @@
 from django.db import models
-
-from django.db import models
 from django.utils import timezone
 
 class Persona(models.Model):
@@ -12,6 +10,5 @@ class Persona(models.Model):
     fecha_creado = models.DateTimeField(blank=True, null=True)
 
     def creacion(self):
-        self.fecha_creado = timezone.now()
+        self. fecha_creado = timezone.now()
         self.save()
-
