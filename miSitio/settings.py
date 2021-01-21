@@ -120,4 +120,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'static'
+#STATIC_ROOT = BASE_DIR / 'static'
+# Si se conecta correctamente se va a url 'lista'
+LOGIN_REDIRECT_URL='lista'
+
+# La vista que hara el control del acceso
+LOGIN_URL='InicioSesion'
+

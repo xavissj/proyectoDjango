@@ -4,8 +4,8 @@ your api token
 token 
 
 import requests
-username = 'xavierbonilla'
-token = '85e30d8ffe5be15bf82b2a40e9f7719d24452419'
+username = 'xavBonilla'
+token = 'f4c11e7d887fdc5e463b57fdff23d9838c6dc094'
 
 response = requests.get(
     'https://www.pythonanywhere.com/api/v0/user/{username}/cpu/'.format(

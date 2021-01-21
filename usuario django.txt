@@ -1,2 +1,7 @@
-usuario: xavierBonilla
-contraseña: xavierBonilla1
+superusuario
+usuario: xavBonilla
+contraseña: xavier94
+
+administrador
+usuario:sxavier
+contraseña: spectro94
